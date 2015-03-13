@@ -10,6 +10,9 @@ class Paint_area(QWidget):
     def mousePressEvent(self, e):
         print("hey")
 
+    def mouseMoveEvent(self, e):
+
+
 class Simple_drawing_window(QWidget):
     def __init__(self):
         QWidget.__init__(self, None)
@@ -22,13 +25,13 @@ class Simple_drawing_window(QWidget):
 
         self.setLayout(layout)
         self.setMinimumSize(500,300)
-    
 
 def main():
     app = QApplication(sys.argv)
-
     w = Simple_drawing_window()
     w.show()
+
+    return app.exec_()
 
 if __name__ == "__main__":
     sys.exit(main())
