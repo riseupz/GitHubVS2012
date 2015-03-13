@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>74eae96e-7237-477d-b67e-06d7413be14a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Lab08.py</StartupFile>
+    <StartupFile>02.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Lab08.py" />
+    <Compile Include="01.py" />
+    <Compile Include="02.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
